@@ -36,10 +36,10 @@ body{
 .screen {
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
-    background: whitesmoke;
+    background: rgba(213, 213, 213, 0.66);
     border: 1px solid black;
     border-radius: 16px;
-    box-shadow: 0 4px 30px black;
+    box-shadow: 0 1px 10px black;
     color: black;
     font-size: 35px;
     overflow: auto;
@@ -57,10 +57,10 @@ body{
 .calc-button {
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
-    background: whitesmoke;
+    background: #D5D5D5A8;
     border: 1px solid black;
     border-radius: 16px;
-    box-shadow: 0 4px 30px black;
+    box-shadow: 0 1px 10px black;
     color: black;
     flex-basis: 20%;
     font-family: inherit;
@@ -71,10 +71,10 @@ body{
 .calc-button:last-child {
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
-    background: #e10c63;
+    background: rgba(225, 12, 99, 0.82);
     border: 1px solid black;
     border-radius: 16px;
-    box-shadow: 0 4px 30px black;
+    box-shadow: 0 1px 10px black;
     color: white;
 }
 
